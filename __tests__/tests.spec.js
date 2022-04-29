@@ -83,8 +83,8 @@ describe("Operaciones aritméticas en JavaScript", () => {
 
     test("Módulo: Investiga qué es el operador módulo (%) en JavaScript para resolver este test", () => {
         // Escribe aquí tu código
-      let q= 3;
-      let r =15;
+      let q= 15;
+      let r =3;
       let s =13;
 
 
@@ -119,6 +119,11 @@ describe("Álgebra booleana", () => {
     test("Usando el operador AND (&&)", () => {
         // Escribe aquí tu código
 
+        let a  =true ;
+        let b = true;
+        console.log( a && b);
+
+
         const expression = a && b;
     
         expect(expression).toEqual(true);
@@ -126,6 +131,14 @@ describe("Álgebra booleana", () => {
 
     test("Usando el operador OR (||)", () => {
         // Escribe aquí tu código
+
+       
+        let  c= false;
+        let d= false;
+        console.log (c || d);
+
+
+
 
         const expression = c || d;
 
@@ -138,11 +151,21 @@ describe("Álgebra booleana", () => {
 
 describe("Operaciones con JavaScript", () => {
     test("Completa las variables que faltan para pasar los tests, ¡toca darle al coco!", () => {
-        // Escribe aquí tu código
+        // Escribe aquí tu códigolet
+        let a =5;
+        let b=6;
+        let c =2;
+        console.log (a+b);
+        console.log (b+c);
+        console.log( a*c);
+
 
         expect(a+b).toEqual(11);
         expect(b+c).toEqual(7);
         expect(a*c).toEqual(12);
+
+
+
     })
 
     test("Completa las variables que faltan para pasar los tests", () => {
@@ -150,7 +173,12 @@ describe("Operaciones con JavaScript", () => {
 
         expect(d*e).toEqual(22);
         expect(e*f).toEqual(40);
-    })
+
+        let d=11;
+        let e=2;
+        let f=
+        d*e;
+    })  e*f;
 
     test("Completa las variables que faltan para pasar los tests", () => {
         // Escribe aquí tu código
@@ -162,4 +190,8 @@ describe("Operaciones con JavaScript", () => {
         expect(d !== "Hello").toBe(false);
         expect(e.startsWith("E")).toBe(true);
     })
-})
+})let a= 10;
+let b= 100;
+let c=true
+let d=hello
+let e=laura;
